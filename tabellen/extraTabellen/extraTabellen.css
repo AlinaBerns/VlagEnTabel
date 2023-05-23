@@ -1,0 +1,15 @@
+table{
+    border-top: 8px solid;
+    border-bottom: 8px solid;
+    border-color: black;
+}
+
+p{
+    margin: 0px;
+}
+tr:first-child { 
+    text-align: center;
+    font-weight: bold;
+    text-decoration:underline;
+    
+}
