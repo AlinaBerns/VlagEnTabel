@@ -1,0 +1,25 @@
+.div-parent {
+    height: 100px;
+    margin: 5px;
+    border: 2px dotted;
+}
+
+.div-child-black{
+    width: 33%;
+    height: 100px;
+    background: black;
+    float:left;
+}
+
+.div-child-yellow{
+    width: 33%;
+    height: 100px;
+    background: rgb(228, 191, 3);
+    float:left;
+}
+.div-child-red{
+    width: 33%;
+    height: 100px;
+    background: rgb(228, 3, 3);
+    float:left;
+}

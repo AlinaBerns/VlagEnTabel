@@ -1,0 +1,23 @@
+table{
+    border: 4px solid;
+    border-color: blue;
+}
+
+td{
+    height: 50px;
+    width: 50px;
+}
+
+#table tbody tr:nth-child(even) td:nth-child(odd){
+    background: aqua;
+    
+}
+
+#table tbody tr:nth-child(even) td:nth-child(even){
+    background: rgb(55, 0, 255);
+    
+}
+#table tbody tr:nth-child(odd) td:nth-child(even){
+    background: aqua;
+}
+
