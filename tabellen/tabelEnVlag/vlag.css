@@ -1,25 +1,28 @@
-.div-parent {
-    height: 100px;
-    margin: 5px;
-    border: 2px dotted;
+body > div {
+  height: 100px;
+  margin: 5px;
+  border: 2px dotted;
+  display: flex;
+  justify-content: space-between;
 }
 
-.div-child-black{
-    width: 33%;
-    height: 100px;
-    background: black;
-    float:left;
+body > div > div:first-child {
+  width: 33%;
+  height: 100px;
+  background: black;
+  float: left;
 }
 
-.div-child-yellow{
-    width: 33%;
-    height: 100px;
-    background: rgb(228, 191, 3);
-    float:left;
+body > div > div {
+  width: 33%;
+  height: 100px;
+  background: yellow;
+  float: left;
 }
-.div-child-red{
-    width: 33%;
-    height: 100px;
-    background: rgb(228, 3, 3);
-    float:left;
+
+body > div > div:last-child {
+  width: 33%;
+  height: 100px;
+  background: rgb(255, 30, 0);
+  float: left;
 }
