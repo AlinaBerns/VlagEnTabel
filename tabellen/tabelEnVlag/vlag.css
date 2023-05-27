@@ -2,7 +2,7 @@ body > div {
   height: 100px;
   margin: 5px;
   border: 2px dotted;
-  display: flex;
+  display: flexbox;
   justify-content: space-between;
 }
 
